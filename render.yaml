@@ -2,7 +2,7 @@ services:
   - type: web
     name: provably-fair-audit
     env: node
-    buildCommand: cd client && npm ci && npm run build && cd ../server && npm ci && npm run build
+    buildCommand: cd client && npm ci --include=dev && npm run build && cd ../server && npm ci && npm run build
     startCommand: cd server && npm start
     envVars:
       - key: NODE_ENV
