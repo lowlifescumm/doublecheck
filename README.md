@@ -2,6 +2,8 @@
 
 A minimal, production-ready web application that verifies provably-fair game outcomes for Dice and Crash games. This MVP provides cryptographic verification of game results with a sleek, modern UI and a simple API.
 
+> **Status**: Deployed and ready for use!
+
 ## Features
 
 - ✅ **Dice Game Verification** - Verify dice outcomes (0.00-99.99)
